@@ -9,7 +9,7 @@ void paramsum (int n , int sum) {
         return;
         // this is the base case
     } else {
-        paramsum(n-1 , sum + n);
+        return paramsum(n-1 , sum + n);
     }
 }
 // really impressive approach
